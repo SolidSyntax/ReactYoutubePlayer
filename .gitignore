@@ -1,0 +1,15 @@
+# NPM & Build
+/node_modules
+bundle.js
+npm-debug.log
+
+# IntelliJ
+*.iml
+/.idea
+
+# Configuration files, non public keys
+/src/Configuration.js
+
+# MacOS
+.DS_Store
+
