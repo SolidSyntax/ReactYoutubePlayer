@@ -1,3 +1,8 @@
+body {
+    background-size: 100% auto;
+    background: url(../resources/bumba.jpg) no-repeat;
+}
+
 .search-bar{
     margin: 20px;
     text-align:center;
@@ -12,13 +17,19 @@
 }
 
 .video-detail .details {
-    margin-top: 10px;
+    margin-top: 10vh;
     padding: 10px;
     border: 1px solid #ddd;
+    background-color: #eeeeee;
     border-radius: 4px;
 }
 
+.list-group{
+    margin-top: 10vh;
+}
+
 .list-group-item {
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
